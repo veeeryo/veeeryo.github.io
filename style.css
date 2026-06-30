@@ -3,22 +3,6 @@
   margin: 50px auto;
 }
 
-.apply input,
-.apply textarea {
-  width: 100%;
-  padding: 12px;
-  margin: 10px 0 20px;
-  border-radius: 10px;
-  border: 1px solid #ddd;
-}
-
-.apply button {
-  width: 100%;
-  padding: 15px;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
 .apply form {
   display: flex;
   flex-direction: column;
@@ -26,16 +10,29 @@
 
 .apply label {
   margin-top: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   font-weight: bold;
 }
 
 .apply input,
 .apply textarea {
   width: 100%;
-  box-sizing: border-box;
   padding: 12px;
-  margin: 0 0 10px;
+  margin-bottom: 15px;
   border-radius: 10px;
   border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.apply textarea {
+  height: 120px;
+  resize: none;
+}
+
+.apply button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  cursor: pointer;
 }
