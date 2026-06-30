@@ -36,3 +36,7 @@
   border-radius: 10px;
   cursor: pointer;
 }
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
