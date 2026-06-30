@@ -18,3 +18,24 @@
   border-radius: 10px;
   cursor: pointer;
 }
+
+.apply form {
+  display: flex;
+  flex-direction: column;
+}
+
+.apply label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.apply input,
+.apply textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  margin: 0 0 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
