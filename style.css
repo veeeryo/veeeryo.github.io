@@ -40,3 +40,8 @@
 body {
   font-family: "Noto Sans KR", sans-serif;
 }
+
+.title-big {
+  font-size: 40px;
+}
+
